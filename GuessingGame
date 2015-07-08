@@ -1,0 +1,17 @@
+# python
+
+
+print 'Try to guess the correct #'
+print 'Choose a # between 1 and 100'
+while True:
+  selection=raw_input('Your number:')
+  if selection=='7':  
+    print 'That is correct, you win!'
+    break
+  elif selection=='89':
+    print 'That is correct, You win!
+    break
+  else:
+    print 'Nope, try again!'
+    continue
+print 'play again?'
